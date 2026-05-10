@@ -1,6 +1,6 @@
-# AWS CUR + Python Billing Examples (Public-Safe Starter)
+# AWS CUR + Python Billing Examples
 
-This repository is a **public-safe starter** for sharing how to query AWS billing data from CUR (Cost and Usage Report), Athena, and Cost Explorer API with Python. It is designed to avoid uploading real billing data, AWS credentials, customer names, or internal resource identifiers to a public GitHub repository.[cite:7][cite:23][cite:24]
+This repository is for sharing how to query AWS billing data from CUR (Cost and Usage Report), Athena, and Cost Explorer API with Python. It is designed to avoid uploading real billing data, AWS credentials, customer names, or internal resource identifiers to a public GitHub repository.[cite:7][cite:23][cite:24]
 
 ## What this repo includes
 
