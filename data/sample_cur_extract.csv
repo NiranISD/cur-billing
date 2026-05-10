@@ -1,4 +1,4 @@
 billing_period,service,account_id,environment,amount_usd
-2026-05,AmazonEC2,000000000000,prod,125.40
-2026-05,AmazonS3,000000000000,shared,18.22
-2026-05,AmazonRDS,000000000000,prod,64.10
+202x-0x,AmazonEC2,000000000000,prod,125.40
+202x-0x,AmazonS3,000000000000,shared,18.22
+202x-xx,AmazonRDS,000000000000,prod,64.10
