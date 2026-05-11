@@ -1,6 +1,6 @@
 # Repository structure
 
-This document explains the folder layout for AWS CUR + Python billing example repository. The structure follows common GitHub and Python project practices by keeping documentation at the root, code under `src/`, SQL examples in a dedicated folder, and private or generated files excluded via `.gitignore`.
+This document explains the folder layout for AWS CUR + Python billing example repository. The structure follows common GitHub and Python project practices by keeping documentation at the root, code under `src/`, SQL examples in a dedicated folder, and private or generated files excluded via `.gitignore`
 
 ```text
 aws-cur-python-public-repo/
@@ -53,6 +53,6 @@ The `docs/` folder is reserved for operational notes such as publishing guidance
 
 ## Sample data
 
-The `data/` folder contains only mock demonstration data. In a public repository, this folder should never contain real CUR exports, Athena result sets, invoices, or customer billing records.
+The `data/` folder contains only mock demonstration data, this folder should never contain real CUR exports, Athena result sets, invoices, or customer billing records.
 
 - `sample_cur_extract.csv` — fabricated sample rows for explaining schema and expected output shape.
