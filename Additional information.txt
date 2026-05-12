@@ -1,0 +1,27 @@
+#Prerequisites
+This tutorial assumes that you have CUR (Cost and Usage Report) set up in your AWS environment. If this is not the case please follow the steps in Turning on the AWS Cost and Usage Report before proceeding.
+
+Please note that in order to deploy this solution the S3 bucket to which CUR reports are written must reside in one of the following AWS regions:
+
+Northern Virginia
+Ohio
+Oregon
+Mumbai
+Seoul
+Singapore
+Sydney
+Tokyo
+Frankfurt
+Ireland
+London
+At this point in time, only the previous regions have all the necessary services deployed.
+
+#Introduction
+This tutorial shows how to build a serverless solution for querying the AWS CUR Report using Exivity. This solution makes use of AWS serverless services such as Lambda and Athena, as well as other commonly used services such as S3, CloudFormation, and API Gateway. The following topics will be covered:
+
+Solution Overview
+Launching the CloudFormation Template
+Creating the Lambda function and API Gateway
+Configuring an Extractor
+Configuring a Transformer
+Creating your Report
